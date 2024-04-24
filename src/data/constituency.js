@@ -3,41 +3,35 @@ export const constituencies = [
     state: "Assam",
     constituencyDetail: {
       seats: 5,
-      constituencies: [
-        "Karimganj",
-        "Silchar",
-        "Mangaldoi",
-        "Nagaon",
-        "Kaliabor",
-      ],
+      names: ["Karimganj", "Silchar", "Mangaldoi", "Nagaon", "Kaliabor"],
     },
   },
   {
     state: "Bihar",
     constituencyDetail: {
       seats: 5,
-      constituencies: ["Kishanganj", "Katihar", "Purnia", "Bhagalpur"],
+      names: ["Kishanganj", "Katihar", "Purnia", "Bhagalpur"],
     },
   },
   {
     state: "Chhatisgarh",
     constituencyDetail: {
       seats: 3,
-      constituencies: ["Rajnandgaon", "Mahasamund", "Kanker"],
+      names: ["Rajnandgaon", "Mahasamund", "Kanker"],
     },
   },
   {
     state: "J&K",
     constituencyDetail: {
       seats: 1,
-      constituencies: ["Jammu"],
+      names: ["Jammu"],
     },
   },
   {
     state: "Karnataka",
     constituencyDetail: {
       seats: 14,
-      constituencies: [
+      names: [
         "Chikkodi",
         "Belgaum",
         "Bagalkot",
@@ -59,7 +53,7 @@ export const constituencies = [
     state: "Kerala",
     constituencyDetail: {
       seats: 20,
-      constituencies: [
+      names: [
         "Kasargod",
         "Kannur",
         "Vadakara",
@@ -87,7 +81,7 @@ export const constituencies = [
     state: "Madhya Pradesh",
     constituencyDetail: {
       seats: 7,
-      constituencies: [
+      names: [
         "Tikamgarh",
         "Damoh",
         "Khajuraho",
@@ -102,7 +96,7 @@ export const constituencies = [
     state: "Maharashtra",
     constituencyDetail: {
       seats: 8,
-      constituencies: [
+      names: [
         "Buldhana",
         "Akola",
         "Amravati",
@@ -118,14 +112,14 @@ export const constituencies = [
     state: "Manipur",
     constituencyDetail: {
       seats: 1,
-      constituencies: ["Outer Manipur"],
+      names: ["Outer Manipur"],
     },
   },
   {
     state: "Rajasthan",
     constituencyDetail: {
       seats: 13,
-      constituencies: [
+      names: [
         "Tonk-Sawai Madhopur",
         "Ajmer",
         "Pali",
@@ -146,14 +140,14 @@ export const constituencies = [
     state: "Tripura",
     constituencyDetail: {
       seats: 1,
-      constituencies: ["Tripura East"],
+      names: ["Tripura East"],
     },
   },
   {
     state: "Uttar Pradesh",
     constituencyDetail: {
       seats: 8,
-      constituencies: [
+      names: [
         "Amroha",
         "Meerut",
         "Baghpat",
@@ -169,7 +163,7 @@ export const constituencies = [
     state: "West Bengal",
     constituencyDetail: {
       seats: 3,
-      constituencies: ["Darjeeling", "Raiganj", "Balurghat"],
+      names: ["Darjeeling", "Raiganj", "Balurghat"],
     },
   },
 ];
